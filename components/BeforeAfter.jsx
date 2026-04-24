@@ -11,12 +11,12 @@ const CASES = [
   },
   {
     key: 'c2',
-    img: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80',
+    img: 'https://images.unsplash.com/photo-1607990281513-1a9efbf81c38?auto=format&fit=crop&w=700&q=80',
     cap: 'ba.c2',
   },
   {
     key: 'c3',
-    img: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80',
+    img: 'https://images.unsplash.com/photo-1588776814546-1ffbb4cdc9ba?auto=format&fit=crop&w=700&q=80',
     cap: 'ba.c3',
   },
 ]

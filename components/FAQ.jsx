@@ -19,11 +19,11 @@ export default function FAQ() {
           <span className="tag">{t('fq.tag')}</span>
           <h2>{t('fq.title')}</h2>
         </div>
-        <div className="faq-list">
+        <div className="faq-list reveal-up">
           {QUESTIONS.map(key => {
             const isOpen = open === key
             return (
-              <div key={key} className={`faq-item reveal-up${isOpen ? ' open' : ''}`}>
+              <div key={key} className={`faq-item${isOpen ? ' open' : ''}`}>
                 <button className="faq-q" onClick={() => toggle(key)}>
                   <span>{t(`${key}.q`)}</span>
                   <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2"
